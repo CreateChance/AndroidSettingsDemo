@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <RingtonePreference
+        android:ringtoneType="all"
+        android:title="@string/ringtone_setting_title"
+        android:summary="@string/ringtone_setting_summary"
+        android:showDefault="false"
+        android:defaultValue="true"
+        android:key="ring_key"
+        android:showSilent="true"/>
+
+    <PreferenceCategory
+        android:title="@string/category_setting_one">
+
+        <CheckBoxPreference
+            android:title="@string/g1_checkbox_setting_title"
+            android:summaryOn="@string/checkbox_setting_summary_on"
+            android:summaryOff="@string/checkbox_setting_summary_off"
+            android:defaultValue="false"
+            android:key="g1_checkbox_key"/>
+
+        <ListPreference
+            android:key="g1_list_key"
+            android:title="@string/g1_list_setting_title"
+            android:summary="@string/list_setting_summary"
+            android:dialogIcon="@android:drawable/stat_sys_warning"
+            android:dialogTitle="第一组列表设置"
+            android:entries="@array/list_array_title"
+            android:entryValues="@array/list_array_value"/>
+
+        <EditTextPreference
+            android:key="g1_edit_key"
+            android:title="@string/g1_edit_setting_title"
+            android:summary="@string/edit_setting_summary"
+            android:dialogTitle="请输入："/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_setting_two">
+
+        <CheckBoxPreference
+            android:title="@string/g2_checkbox_setting_title"
+            android:summaryOn="@string/checkbox_setting_summary_on"
+            android:summaryOff="@string/checkbox_setting_summary_off"
+            android:defaultValue="false"
+            android:key="g2_checkbox_key"/>
+
+        <ListPreference
+            android:key="g2_list_key"
+            android:title="@string/g2_list_setting_title"
+            android:summary="@string/list_setting_summary"
+            android:dialogIcon="@android:drawable/stat_sys_warning"
+            android:dialogTitle="第二组列表设置"
+            android:entries="@array/list_array_title"
+            android:entryValues="@array/list_array_value"/>
+
+        <EditTextPreference
+            android:key="g2_edit_key"
+            android:title="@string/g2_edit_setting_title"
+            android:summary="@string/edit_setting_summary"
+            android:dialogTitle="请输入："/>
+
+    </PreferenceCategory>
+
+    <SwitchPreference
+        android:key="show_advanced_setting"
+        android:title="@string/show_advanced_setting_title"
+        android:summary="@string/show_advanced_setting_summary"
+        android:defaultValue="false"/>
+
+
+</PreferenceScreen>

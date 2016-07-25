@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AndroidSettingsDemo</string>
+
+    <string name="ringtone_setting_title">设置铃声</string>
+    <string name="ringtone_setting_summary">选择铃声（测试RingtonePreference）</string>
+
+    <string name="category_setting_one">第一组设置</string>
+    <string name="g1_checkbox_setting_title">第一组勾选设置</string>
+    <string name="g1_list_setting_title">第一组列表设置</string>
+    <string name="g1_edit_setting_title">第一组输入设置</string>
+
+    <string name="category_setting_two">第二组设置</string>
+    <string name="g2_checkbox_setting_title">第二组勾选设置</string>
+    <string name="g2_list_setting_title">第二组列表设置</string>
+    <string name="g2_edit_setting_title">第二组输入设置</string>
+
+    <string name="checkbox_setting_summary_on">可以勾选的设置: 开启</string>
+    <string name="checkbox_setting_summary_off">可以勾选的设置: 关闭</string>
+    <string name="list_setting_summary">可以选择的设置</string>
+    <string name="edit_setting_summary">可以输入的设置</string>
+
+    <string name="show_advanced_setting_title">显示高级设置</string>
+    <string name="show_advanced_setting_summary">高级选项</string>
+
+    <string name="advanced_setting_title">高级设置</string>
+</resources>

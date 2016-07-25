@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.createchance.androidsettingsdemo.PrefsFragmentOne"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置1"
+        android:summary="第一个设置"/>
+
+    <header
+        android:fragment="com.createchance.androidsettingsdemo.PrefsFragmentTwo"
+        android:icon="@mipmap/ic_launcher"
+        android:title="设置2"
+        android:summary="第二个设置"/>
+
+</preference-headers>

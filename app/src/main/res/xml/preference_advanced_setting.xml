@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="advanced_settings"
+        android:title="@string/advanced_setting_title">
+        <CheckBoxPreference
+            android:key="advanced_checkbox_setting"
+            android:title="高级勾选设置"
+            android:summary="勾选确认"/>
+    </PreferenceCategory>
+</PreferenceScreen>
